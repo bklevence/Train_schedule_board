@@ -1,6 +1,18 @@
 # MBTA Matrix Portal 
 > Train scheduler board that displays Subway/Metro/Trains/Bus, next arrival schedules on real time based. -Enrique Gamboa @egamboafuentes . 
 
+> [!IMPORTANT]
+> You will want a settings.toml file to go along with the code.py. TL;DR: it's the better version of secrets.py. It will need to contain the following:
+
+...
+CIRCUITPY_WIFI_SSID = "YOUR SSID HERE"
+CIRCUITPY_WIFI_PASSWORD = "YOUR WIFI PASSWORD HERE"
+
+ADAFRUIT_AIO_USERNAME = "YOUR USERNAME"
+ADAFRUIT_AIO_KEY = "YOUR PASS"
+TIMEZONE = "America/New_York", # http://worldtimeapi.org/timezones
+...
+
 ## WIP Status
 
 - [x] Current project connected to public MBTA API V3 (Boston).
@@ -13,7 +25,6 @@
     - [x] [adafruit-circuitpython-bundle-9.x-mpy-20250810.zip](https://circuitpython.org/libraries)
 - [ ] Get code.py on updated board.
 - [ ] Debug.
-
 
  ## Links of interest
 - [Adafruit Matrix Portal M4](https://www.adafruit.com/product/4745)
