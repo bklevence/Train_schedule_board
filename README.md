@@ -6,7 +6,8 @@
 I was compelled to start using my MatrixPortal again. I previously used it as a [countdown to holidays](https://learn.adafruit.com/halloween-countdown-display-matrix) throughout the year in my classroom, however now as an at home caretaker for my kiddo I wanted to have it as something useful for my partner who takes the MBTA daily. I found Enrique's work, but it wasn't working correctly with my setup. So I updated everything and tinkered until I got something working again that matched my [MBTA stops webpage](https://www.mbta.com/stops/place-portr). See below for more working notes in [WIP Status](#WIP-Status). For a better writeup on how to successfully tune this to your MBTA line, stop, and travel direction check out [Enrique's Medium post](https://jegamboafuentes.medium.com/i-created-my-own-subway-arrival-board-with-real-time-data-to-dont-miss-my-train-anymore-28bfded312c0?source=friends_link&sk=a229cfebc19bc9f1874ba3a0441f0620). I may come back in the future to add that content here, but for now I'm just looking to get things working! :sunglasses:
 
 > [!IMPORTANT]
-> You will want to create a settings.toml file to go along with the code.py. TL;DR: [settings.toml is the better version of secrets.py](https://youtu.be/Ph8SHE1s89c?si=fGxQndlHP3gXufug). It will need to contain the following:
+> You will want to create a settings.toml file to go along with the code.py. TL;DR: [settings.toml is the better version of secrets.py](https://youtu.be/Ph8SHE1s89c?si=fGxQndlHP3gXufug). 
+> It will need to contain the following:
 
 ```
 CIRCUITPY_WIFI_SSID = "YOUR SSID HERE"
