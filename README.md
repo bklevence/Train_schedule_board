@@ -7,6 +7,7 @@ I was compelled to start using my MatrixPortal again. I previously used it as a 
 
 > [!IMPORTANT]
 > You will want to create a settings.toml file to go along with the code.py. TL;DR: [settings.toml is the better version of secrets.py](https://youtu.be/Ph8SHE1s89c?si=fGxQndlHP3gXufug). 
+> 
 > It will need to contain the following:
 
 ```
