@@ -4,14 +4,14 @@
 > [!IMPORTANT]
 > You will want a settings.toml file to go along with the code.py. TL;DR: it's the better version of secrets.py. It will need to contain the following:
 
-...
+```
 CIRCUITPY_WIFI_SSID = "YOUR SSID HERE"
 CIRCUITPY_WIFI_PASSWORD = "YOUR WIFI PASSWORD HERE"
 
 ADAFRUIT_AIO_USERNAME = "YOUR USERNAME"
 ADAFRUIT_AIO_KEY = "YOUR PASS"
 TIMEZONE = "America/New_York", # http://worldtimeapi.org/timezones
-...
+```
 
 ## WIP Status
 
