@@ -9,7 +9,8 @@
         - [CircuitPython Download 9.2.8](https://circuitpython.org/board/matrixportal_m4/)
     - [x] [Wifi-BLE coprocessor update, nina](https://learn.adafruit.com/upgrading-esp32-firmware/upgrade-all-in-one-esp32-airlift-firmware)
         - [NINA_ADAFRUIT-esp32-3.1.0.bin](https://github.com/adafruit/nina-fw/releases/tag/3.1.0)
-- [ ] Update Libraries in /lib directory.
+- [x] Update Libraries in /lib directory.
+    - [x] [adafruit-circuitpython-bundle-9.x-mpy-20250810.zip](https://circuitpython.org/libraries)
 - [ ] Get code.py on updated board.
 - [ ] Debug.
 
