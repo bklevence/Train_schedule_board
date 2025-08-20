@@ -36,6 +36,8 @@ TIMEZONE = "America/New_York", # http://worldtimeapi.org/timezones
 
  ## Links of interest
 - [Adafruit Matrix Portal M4](https://www.adafruit.com/product/4745)
+- [Adafruit 64x32 RGB LED Matrix - 4mm pitch](https://www.adafruit.com/product/2278)
+- [MatrixPortal Documentation Guide](https://learn.adafruit.com/adafruit-matrixportal-m4)
 - [Original Medium Post](https://jegamboafuentes.medium.com/i-created-my-own-subway-arrival-board-with-real-time-data-to-dont-miss-my-train-anymore-28bfded312c0?source=friends_link&sk=a229cfebc19bc9f1874ba3a0441f0620)
 - [Upstream repository (ae2938fc52b9993b929b04ba700fe58fa47946cb) for my work here](https://github.com/jegamboafuentes/Train_schedule_board/tree/main/display_code/8-23-23/new)
 - [MBTA Stops Webpage](https://www.mbta.com/stops/subway)
